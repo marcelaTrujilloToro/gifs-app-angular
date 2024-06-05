@@ -12,4 +12,7 @@ export class SidebarComponent {
   get tags() {
     return this.gisfService.tagsHistory;
   }
+  searchTag(tag: string) {
+    this.gisfService.searchTag(tag);
+  }
 }
